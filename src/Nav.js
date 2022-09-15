@@ -8,7 +8,7 @@ function Nav() {
         <div>
           <img src={logo} className="App-logo" alt="logo" />
         </div>
-        <div>
+        <div className='mt-5'>
           <h1>Daniel's Shoe Store</h1>
         </div>
       </div>
