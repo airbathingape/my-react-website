@@ -1,12 +1,17 @@
+import logo from './jordan.png';
+import './Nav.css';
+
 function Nav() {
   return (
     <nav>
-        <h1>Bob's Bistro</h1>
-        <ul>
-            <li>Menu</li>
-            <li>About</li>
-            <li>Contact</li>
-        </ul>
+      <div className="Nav-header">
+        <div>
+          <img src={logo} className="App-logo" alt="logo" />
+        </div>
+        <div>
+          <h1>Daniel's Shoe Store</h1>
+        </div>
+      </div>
     </nav>
   );
 }
