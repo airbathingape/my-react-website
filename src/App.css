@@ -25,6 +25,61 @@ li {
   transform: scaleX(-1);
 }
 
+.navBorder {
+  border: 1px solid lightgray;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.bids {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+  margin-bottom: 32px;
+}
+
+.place{
+border: 1px solid black;
+text-align: center;
+padding: 8px 40px;
+margin-right: 16px;
+transition: 0.3s;
+}
+
+.place:hover {
+  background: black;
+  color: white;
+}
+
+.buy {
+  border: 1px solid #006340;
+  text-align: center;
+  padding: 8px 40px;
+  background: #006340;
+  color: white;
+}
+
+.buy:hover {
+  border: 1px solid #E2E8F0;
+  background: #E2E8F0;
+  color: white;
+
+}
+
+.priceBorder {
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 24px;
+}
+.ask {
+  text-align: center;
+  color: green;
+}
+
+.sale {
+  margin-top: 12px;
+  font-size: 14px;
+}
+
 .App-header {
   background-color: #ffffff;
   align-items: center;
