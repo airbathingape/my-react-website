@@ -31,3 +31,30 @@ li {
 .App-link {
   color: #61dafb;
 }
+
+.underline {
+  text-decoration: underline;
+}
+
+.shoeDetails {
+  background-color: #F4F3F1;
+}
+
+.shoeDetails2 {
+  background-color: #F4F3F1;
+  margin-left: 8px;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  }
+
+  .div1 { grid-area: 1 / 1 / 2 / 5; }
+  .div2 { grid-area: 2 / 1 / 4 / 3; }
+  .div3 { grid-area: 2 / 3 / 4 / 5; }
+  .div4 { grid-area: 4 / 1 / 5 / 5; }
+  .div5 { grid-area: 5 / 1 / 6 / 5; }
