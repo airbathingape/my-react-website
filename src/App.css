@@ -123,8 +123,24 @@ li {
 }
 
 .bottomBorder {
-  border-bottom: 1px solid red;
+  border-bottom: 1px solid lightgrey;
   margin-bottom: 12px;
+}
+
+.details {
+  font-size: 24px;
+}
+
+.mainDetails {
+  font-size: 14px;
+  margin-top: 24px;
+}
+
+.subDetails {
+  font-size: 14px;
+  margin-top: 24px;
+  margin-left: 32px;
+  font-weight: bold;
 }
 
 .App-header {

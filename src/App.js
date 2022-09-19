@@ -69,8 +69,8 @@ function App() {
             </div>
           </div>
         </div>
-        <div className='bottomBorder'>Hello</div>
         <div class="div4">
+        <div className='bottomBorder'></div>
           <div className="details">
             Product Details
           </div>
