@@ -16,7 +16,11 @@ li {
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 300px;
+  pointer-events: none;
+}
+.yeezy {
+  height: 300px;
   pointer-events: none;
 }
 

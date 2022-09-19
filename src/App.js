@@ -1,4 +1,5 @@
 import './App.css'
+import logo from './solar.png';
 
 function App() {
   return (
@@ -20,7 +21,9 @@ function App() {
           <i class="fa-solid fa-arrow-right-from-bracket iconMargin"></i>
         </div>
       </div>
-      <div class="div2"> </div>
+      <div class="div2">
+       <img src={logo} className="yeezy" alt='pic' />
+      </div>
       <div class="div3"> </div>
       <div class="div4"> </div>
       <div class="div5"> </div>
