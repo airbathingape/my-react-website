@@ -1,4 +1,3 @@
-import logo from './jordan.png';
 import './Nav.css';
 
 function Nav() {
