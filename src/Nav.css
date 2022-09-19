@@ -62,8 +62,24 @@
   color: black;
   font-size: 16px;
   align-items: center;
+  margin-top: 11px;
 }
 
 .navMargin {
-  margin-right: 8px;
+  margin-right: 18px;
+}
+
+.ax2 {
+  border: 1px solid black;
+  text-align: center;
+  padding: 1px 16px;
+  margin-right: 4px;
+  transition: 0.3s;
+  background: black;
+  color: white;
+}
+
+.ax2:hover {
+  background: white;
+  color: black;
 }

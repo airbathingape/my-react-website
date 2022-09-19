@@ -108,8 +108,9 @@ li {
 }
 
 .last {
-  color: #006340;
+  color: black;
   font-size: 24px;
+  font-weight: bold;
 }
 
 .boxes {

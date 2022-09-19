@@ -17,9 +17,9 @@ function Nav() {
           <p className='navMargin'>About</p>
           <p className='navMargin'>Help</p>
           <p className='navMargin'>Sell</p>
-          <p className='navMargin'>bell</p>
+          <p className='navMargin'><i class="fa-regular fa-bell"></i></p>
           <p className='ax navMargin'>Log In</p>
-          <p className='ax navMargin'>Sign Up</p>
+          <p className='ax2 navMargin'>Sign Up</p>
         </div>
       </div>
     </nav>
