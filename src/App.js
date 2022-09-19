@@ -69,7 +69,26 @@ function App() {
             </div>
           </div>
         </div>
-        <div class="div4"> </div>
+        <div className='bottomBorder'>Hello</div>
+        <div class="div4">
+          <div className="details">
+            Product Details
+          </div>
+          <div className='d-flex'>
+            <div className="mainDetails">
+              <p>Style</p>
+              <p>Colorway</p>
+              <p>Retail Price</p>
+              <p>Release Date</p>
+            </div>
+            <div className="subDetails">
+              <p>508214-006</p>
+              <p>BLACK/BLACK-SOLAR RED</p>
+              <p>$250</p>
+              <p>06/09/2012</p>
+            </div>
+          </div>
+        </div>
         <div class="div5"> </div>
       </div>
     </div>

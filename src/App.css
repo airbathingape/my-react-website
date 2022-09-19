@@ -122,6 +122,11 @@ li {
   color: #006340;
 }
 
+.bottomBorder {
+  border-bottom: 1px solid red;
+  margin-bottom: 12px;
+}
+
 .App-header {
   background-color: #ffffff;
   align-items: center;
