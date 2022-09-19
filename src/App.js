@@ -5,15 +5,19 @@ function App() {
     <div class="parent">
       <div class="div1  d-flex justify-content-between">
         <div className="top"><p>
-          Home / Sneakers / Air Jordan / 3 / <span className='underline'>Jordan 3 Retro Fire Red (2022)</span>
+          Home / Sneakers / Nike / Other / Premium / <span className='underline'>Nike Air Yeezy 2 Solar Red</span>
         </p>
-          <h2>Jordan 3 Retro</h2>
-          <h3>Fire Red</h3>
+          <h2>Air Yeezy 2</h2>
+          <h3>Solar Red</h3>
           <div className='d-flex'>
-          <p className='shoeDetails'>verified authentic</p><p className='shoeDetails2'>condition new</p>
+          <p className='shoeDetails'>Verified Authentic</p><p className='shoeDetails2'>Condition New</p>
           </div>
         </div>
-        <div className="icons"> icons</div>
+        <div className="icons">
+        <i class="fa-solid fa-circle-plus"></i>
+        <i class="fa-solid fa-heart"></i>
+        <i class="fa-solid fa-arrow-right-from-bracket"></i>
+        </div>
       </div>
       <div class="div2"> </div>
       <div class="div3"> </div>
