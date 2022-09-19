@@ -6,11 +6,9 @@ function App() {
     <div className='container'>
       <div class="parent">
         <div class="div1 d-flex justify-content-between">
-          <div className="top"><p>
-            Home / Sneakers / Nike / Other / Premium / <span className='underline'>Nike Air Yeezy 2 Solar Red</span>
-          </p>
+          <div className="top"><p>Home / Sneakers / Nike / Other / Premium / <span className='underline'>Nike Air Yeezy 2 Solar Red</span></p>
             <h2>Air Yeezy 2</h2>
-            <h3>Solar Red</h3>
+            <p className='shoeColor'>Solar Red</p>
             <div className='d-flex'>
               <p className='shoeDetails'>Verified Authentic</p>
               <p className='shoeDetails2'>Condition: New</p>
@@ -70,7 +68,7 @@ function App() {
           </div>
         </div>
         <div class="div4">
-        <div className='bottomBorder'></div>
+          <div className='bottomBorder'></div>
           <div className="details">
             Product Details
           </div>
