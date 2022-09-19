@@ -46,6 +46,26 @@ function App() {
         <div className="ask">
           <p>sell for 940,400 or more</p>
         </div>
+
+
+        <div className="last sale">
+          <div className="sale">
+            <p>last sale:</p>
+          </div>
+          <div className="mainPrice d-flex">
+            <div className="last">
+              <p>¥970,800</p>
+            </div>
+            <div className="boxes d-flex">
+              <div className="ax">View Asks</div>
+              <div className="ax">View Bids</div>
+              <div className="ax">View Sales</div>
+            </div>
+          </div>
+            <div className="percent">
+              <p>▲ ¥29,600 (3.1%)</p>
+            </div>
+        </div>
       </div>
       <div class="div4"> </div>
       <div class="div5"> </div>
