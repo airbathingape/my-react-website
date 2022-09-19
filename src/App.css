@@ -22,6 +22,7 @@ li {
 .yeezy {
   height: 300px;
   pointer-events: none;
+  transform: scaleX(-1);
 }
 
 .App-header {

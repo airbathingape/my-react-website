@@ -22,9 +22,31 @@ function App() {
         </div>
       </div>
       <div class="div2">
-       <img src={logo} className="yeezy" alt='pic' />
+        <img src={logo} className="yeezy" alt='pic' />
       </div>
-      <div class="div3"> </div>
+      <div class="div3">
+        <div className="navbar">
+          <select class="form-select" aria-label="Default select example">
+            <option selected>Size:</option>
+            <option value="1">
+              <p>US M 7 ¥2,513,700</p>
+            </option>
+            <option value="2">
+              <p>US M 8 ¥2,746,900</p>
+            </option>
+            <option value="3">
+              <p>US M 9 ¥1,953,100</p>
+            </option>
+          </select>
+        </div>
+        <div className="bids d-flex">
+          <div className="place">Place bid</div>
+          <div className="buy">Buy for</div>
+        </div>
+        <div className="ask">
+          <p>sell for 940,400 or more</p>
+        </div>
+      </div>
       <div class="div4"> </div>
       <div class="div5"> </div>
     </div>
