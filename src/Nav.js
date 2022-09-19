@@ -3,7 +3,7 @@ import './Nav.css';
 
 function Nav() {
   return (
-    <nav>
+    <nav className='nav'>
       <div className="Nav-header">
         <div>
           <img src={logo} className="App-logo" alt="logo" />
