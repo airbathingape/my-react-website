@@ -49,7 +49,7 @@ function App() {
         </div>
         <div className="priceBorder"></div>
         <div className="ask">
-          <p>sell for ¥940,400 or more</p>
+            <strong><p>Sell for ¥940,400 or Ask for More</p></strong>
         </div>
 </div>
 
@@ -63,7 +63,7 @@ function App() {
             <div className="last">
               <p>¥970,800</p>
             </div>
-            <div className="boxes d-flex">
+            <div className="boxes">
               <div className="ax">View Asks</div>
               <div className="ax">View Bids</div>
               <div className="ax">View Sales</div>
