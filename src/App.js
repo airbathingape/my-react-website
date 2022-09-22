@@ -1,6 +1,6 @@
-import './App.css'
+import './components/App.css'
 import logo from './solar.png';
-import MainContent from './MainContent.js'
+import MainContent from './components/MainContent.js'
 
 function App() {
   return (
