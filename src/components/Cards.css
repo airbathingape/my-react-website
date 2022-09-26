@@ -8,6 +8,7 @@
   flex-direction: column;
   width: 190px;
   height: 100%;
+  line-height: 0.9;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -23,4 +24,14 @@
 /* Add some padding inside the card container */
 .container {
   padding: 2px 16px;
+}
+
+.lastCard {
+  color: black;
+  font-size: 16px;
+}
+
+.shoeDetails3 {
+  background-color: #F4F3F1;
+  width: 135px;
 }

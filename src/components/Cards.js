@@ -9,9 +9,9 @@ function Cards(props) {
         <div className='container'>
           <p>{props.item.title}</p>
           <p>{props.item.colorway}</p>
-          <p>Lowest Ask</p>
-          <p>Price</p>
-          <p className='shoeDetails'>Last Sale:</p>
+          <p className='lastCard'>Lowest Ask</p>
+          <p className='last'>{props.item.price}</p>
+          <p className='shoeDetails3'>Last Sale: {props.item.lastSale}</p>
         </div>
       </div>
     </div>
