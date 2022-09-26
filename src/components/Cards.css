@@ -9,6 +9,7 @@
   width: 190px;
   height: 100%;
   line-height: 0.9;
+  padding: 4px;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -19,6 +20,10 @@
 .cardPhoto {
   width: 140px;
   height: 75px;
+  display: flex;
+  align-self: center;
+  margin-top: 4px;
+  margin-bottom: 4px;
 }
 
 /* Add some padding inside the card container */
@@ -28,10 +33,14 @@
 
 .lastCard {
   color: black;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .shoeDetails3 {
   background-color: #F4F3F1;
   width: 135px;
+}
+
+.cardSize {
+  font-size: 14px;
 }
