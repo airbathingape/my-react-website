@@ -1,8 +1,19 @@
 import './components/App.css'
 import logo from './solar.png';
 import MainContent from './components/MainContent.js'
+import Cards from './components/Cards.js'
+import data from './components/data'
 
 function App() {
+
+  const cards = data.map(item => {
+    return (
+      <Cards
+        key={item.id}
+        item={item}
+      />
+    )
+  })
   return (
     <div className='container'>
       <div class="parent">
@@ -28,6 +39,15 @@ function App() {
           <MainContent />
         </div>
         <div class="div4">
+          <div className='topBorder'></div>
+           <div className='details'>
+            Related Products
+          </div>
+          <div className='mainCards'>
+            {cards}
+          </div>
+        </div>
+        <div class="div5">
           <div className='bottomBorder'></div>
           <div className="details">
             Product Details
@@ -46,8 +66,8 @@ function App() {
               <p>06/09/2012</p>
             </div>
           </div>
+
         </div>
-        <div class="div5"> </div>
       </div>
     </div>
   );
