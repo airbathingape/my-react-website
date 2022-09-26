@@ -193,6 +193,11 @@ li {
   margin: 30px 80px;
 }
 
+.mainCards {
+  display: flex;
+  gap: 16px;
+}
+
 .div1 {
   grid-area: 1 / 1 / 2 / 5;
 }
@@ -207,6 +212,7 @@ li {
 
 .div4 {
   grid-area: 4 / 1 / 5 / 5;
+  width: 145px;
 }
 
 .div5 {

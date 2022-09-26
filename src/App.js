@@ -7,10 +7,10 @@ import data from './components/data'
 function App() {
 
   const cards = data.map(item => {
-    return(
+    return (
       <Cards
-      key={item.id}
-      item={item}
+        key={item.id}
+        item={item}
       />
     )
   })
@@ -39,6 +39,11 @@ function App() {
           <MainContent />
         </div>
         <div class="div4">
+          <div className='mainCards'>
+            {cards}
+          </div>
+        </div>
+        <div class="div5">
           <div className='bottomBorder'></div>
           <div className="details">
             Product Details
@@ -57,9 +62,7 @@ function App() {
               <p>06/09/2012</p>
             </div>
           </div>
-        </div>
-        <div class="div5">
-            {cards}
+
         </div>
       </div>
     </div>
