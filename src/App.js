@@ -1,6 +1,7 @@
 import './components/App.css'
 import logo from './solar.png';
 import MainContent from './components/MainContent.js'
+import Cards from './components/Cards.js'
 
 function App() {
   return (
@@ -47,7 +48,9 @@ function App() {
             </div>
           </div>
         </div>
-        <div class="div5"> </div>
+        <div class="div5">
+          <Cards />
+        </div>
       </div>
     </div>
   );
