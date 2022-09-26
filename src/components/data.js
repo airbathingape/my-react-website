@@ -35,11 +35,11 @@ const data = [
     lastSale: "¥86,000"
   },
   {
-    title: "Jordan 5",
-    colorway: "Off White",
-    imageUrl: "off5.jpg",
-    price: "¥78,700",
-    lastSale: "¥86,000"
+    title: "Nike Blazer Mid",
+    colorway: "READYMADE White",
+    imageUrl: "rd.jpg",
+    price: "¥27,000",
+    lastSale: "¥29,300"
   },
 ]
 
