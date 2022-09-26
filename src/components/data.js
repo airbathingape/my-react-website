@@ -34,7 +34,7 @@ const data = [
   {
     id: "5",
     title: "Jordan 5",
-    colorway: "Off White",
+    colorway: "Off White Black",
     imageUrl: "off5.jpg",
     price: "¥78,700",
     lastSale: "¥86,000"
