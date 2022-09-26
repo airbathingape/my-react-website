@@ -1,4 +1,5 @@
 import './Cards.css'
+import './App.css'
 
 function Cards(props) {
   return (
@@ -8,6 +9,9 @@ function Cards(props) {
         <div className='container'>
           <p>{props.item.title}</p>
           <p>{props.item.colorway}</p>
+          <p>Lowest Ask</p>
+          <p>Price</p>
+          <p className='shoeDetails'>Last Sale:</p>
         </div>
       </div>
     </div>

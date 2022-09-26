@@ -6,6 +6,8 @@
   border-radius: 5px; /* 5px rounded corners */
   display: flex;
   flex-direction: column;
+  width: 190px;
+  height: 100%;
 }
 
 /* On mouse-over, add a deeper shadow */

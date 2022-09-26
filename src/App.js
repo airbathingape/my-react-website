@@ -39,6 +39,10 @@ function App() {
           <MainContent />
         </div>
         <div class="div4">
+          <div className='topBorder'></div>
+          <div className='details'>
+            Related Products
+          </div>
           <div className='mainCards'>
             {cards}
           </div>

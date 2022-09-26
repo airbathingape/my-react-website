@@ -195,7 +195,13 @@ li {
 
 .mainCards {
   display: flex;
+  padding: 16px;
   gap: 16px;
+}
+
+.topBorder {
+  border-top: 1px solid lightgray;
+  margin-bottom: 8px;
 }
 
 .div1 {
@@ -212,7 +218,8 @@ li {
 
 .div4 {
   grid-area: 4 / 1 / 5 / 5;
-  width: 145px;
+  margin-top: -90px;
+  margin-bottom: 32px;
 }
 
 .div5 {
