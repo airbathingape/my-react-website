@@ -1,5 +1,6 @@
 const data = [
   {
+    id: "1",
     title: "Jordan 1 Retro High",
     colorway: "Off White Chicago",
     imageUrl: "offwhite.png",
@@ -7,6 +8,7 @@ const data = [
     lastSale: "¥691,100"
   },
   {
+    id: "2",
     title: "Jordan 4 Retro",
     colorway: "Lightning",
     imageUrl: "lightning.png",
@@ -14,6 +16,7 @@ const data = [
     lastSale: "¥40,900"
   },
   {
+    id: "3",
     title: "Jordan 1 Low",
     colorway: "Travis Scott x Fragment",
     imageUrl: "frags.jpg",
@@ -21,6 +24,7 @@ const data = [
     lastSale: "¥213,400"
   },
   {
+    id: "4",
     title: "Nike Air Presto",
     colorway: "Off White",
     imageUrl: "presto.png",
@@ -28,6 +32,7 @@ const data = [
     lastSale: "¥343,800"
   },
   {
+    id: "5",
     title: "Jordan 5",
     colorway: "Off White",
     imageUrl: "off5.jpg",
@@ -35,6 +40,7 @@ const data = [
     lastSale: "¥86,000"
   },
   {
+    id: "6",
     title: "Nike Blazer Mid",
     colorway: "READYMADE White",
     imageUrl: "rd.jpg",
